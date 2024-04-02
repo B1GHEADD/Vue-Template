@@ -11,7 +11,7 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/components',
+      path: '/vue-components',
       name: 'components',
       component: VueComponents
     }
