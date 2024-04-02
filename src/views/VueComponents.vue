@@ -1,5 +1,5 @@
 <template>
   <div>
-    <slot />
+    <p>Vue Components</p>
   </div>
 </template>
