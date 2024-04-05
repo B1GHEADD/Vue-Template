@@ -1,4 +1,6 @@
 <script setup>
+import { RouterLink, RouterView } from 'vue-router'
+
 import SectionNavbar from '@/components/Section/SectionNavbar.vue'
 import SectionFooter from '@/components/Section/SectionFooter.vue'
 import SectionMain from '@/components/Section/SectionMain.vue'
@@ -10,7 +12,9 @@ import SectionSideBar from '@/components/Section/SectionSideBar.vue'
     <SectionNavbar />
     <div class="flex h-screen w-screen gap-5">
       <SectionSideBar />
-      <SectionMain />
+      <SectionMain>
+        <RouterView />
+      </SectionMain>
     </div>
     <SectionFooter />
   </div>
