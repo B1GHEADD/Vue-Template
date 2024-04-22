@@ -7,6 +7,7 @@ import SidebarLink from '../Button/SidebarLinkVue.vue'
     <div class="flex flex-col gap-3 mt-2">
       <SidebarLink to="/" name="home" />
       <SidebarLink to="/vue-components" name="components" />
+      <SidebarLink to="/vue-management" name="management" />
     </div>
   </div>
 </template>
